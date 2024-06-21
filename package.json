@@ -1,7 +1,7 @@
 {
   "name": "cms-test",
   "version": "1.0.0",
-  "description": "test-cms",
+  "description": "cms-test",
   "main": "index.js",
   "scripts": {
     "vercel": "nodemon index.js",
