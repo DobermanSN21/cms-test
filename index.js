@@ -23,6 +23,10 @@ const authenticateToken = (req, res, next) => {
   });
 };
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the CMS API");
+});
+
 // API untuk register
 app.post("/register", async (req, res) => {
   const { username, email, password } = req.body;
